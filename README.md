@@ -1,5 +1,19 @@
-# Cpp Class Elements
-## Class
+# C++ Modules (CPP00–CPP09)
+
+This repository contains all of the 42 C++ modules (CPP00–CPP09). Each module introduces a new concept of the C++ language, starting from the basics and gradually progressing toward more advanced topics such as templates and STL. The goal of these projects is to build a solid foundation in object-oriented programming and modern C++ features.
+- `CPP00` – Introduction to C++ syntax and structure: namespaces, classes, member functions, std::cout, and the basics of compilation.
+- `CPP01` – Memory management with new/delete, pointers and references, file streams, and simple class design.
+- `CPP02` – Operator overloading, canonical form of classes, and fixed-point number representation.
+- `CPP03` – Inheritance and polymorphism basics, constructors/destructors in class hierarchies.
+- `CPP04` – Abstract classes, interfaces, virtual functions, and deeper polymorphism concepts.
+- `CPP05` – Exception handling and the bureaucrat/forms exercise focusing on proper error management.
+- `CPP06` – Type casting in C++: static_cast, dynamic_cast, const_cast, and reinterpret_cast.
+- `CPP07` – Templates for functions and classes, introducing generic programming in C++.
+- `CPP08` – Working with templated containers, iterators, and algorithms. Includes exercises like easyfind and Span.
+- `CPP09` – Advanced projects using STL containers and algorithms: Reverse Polish Notation (RPN) calculator, Bitcoin exchange rate parser, and Ford–Johnson algorithm.
+
+## Cpp Class Elements
+### Class
 ```cpp
 class Weapon <-- name
 {
