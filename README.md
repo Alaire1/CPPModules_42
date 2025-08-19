@@ -1,57 +1,19 @@
-Code written according to the rules of cpp98
-# CPP 00
-<details>
-<summary>Exercises: </summary>
-	<strong>ex00</strong><br>
-This C++ program takes command-line arguments and prints them in uppercase, separated by spaces. It uses toupper from <cctype> for conversion. If no arguments are provided, it prints a "noise" message.<br>
+# C++ Modules (CPP00–CPP09)
 
-<strong>ex01</strong><br>
-<strong>ex02</strong><br>
-Code defines an `Account` class representing a bank account. It includes methods for deposits, withdrawals, checking balance, and displaying account status. The class also tracks total number of accounts, total amount in all accounts, total deposits, and total withdrawals using static members. A timestamp is printed in console output using a private static method. The [constructor](#constructor) initializes a new account with a deposit, and the [destructor](#Destructor) closes the account.
+This repository contains all of the 42 C++ modules (CPP00–CPP09). Each module introduces a new concept of the C++ language, starting from the basics and gradually progressing toward more advanced topics such as templates and STL. The goal of these projects is to build a solid foundation in object-oriented programming and modern C++ features.
+- `CPP00` – Introduction to C++ syntax and structure: namespaces, classes, member functions, std::cout, and the basics of compilation.
+- `CPP01` – Memory management with new/delete, pointers and references, file streams, and simple class design.
+- `CPP02` – Operator overloading, canonical form of classes, and fixed-point number representation.
+- `CPP03` – Inheritance and polymorphism basics, constructors/destructors in class hierarchies.
+- `CPP04` – Abstract classes, interfaces, virtual functions, and deeper polymorphism concepts.
+- `CPP05` – Exception handling and the bureaucrat/forms exercise focusing on proper error management.
+- `CPP06` – Type casting in C++: static_cast, dynamic_cast, const_cast, and reinterpret_cast.
+- `CPP07` – Templates for functions and classes, introducing generic programming in C++.
+- `CPP08` – Working with templated containers, iterators, and algorithms. Includes exercises like easyfind and Span.
+- `CPP09` – Advanced projects using STL containers and algorithms: Reverse Polish Notation (RPN) calculator, Bitcoin exchange rate parser, and Ford–Johnson algorithm.
 
-</details>
-
-# CPP 01
-<details>
-<summary>Exercises: </summary>
-<strong>ex00</strong> <br>
-	
-<strong>ex01</strong> <br>
-<strong>ex02</strong> <br>
-<strong>ex03</strong> <br>
-<strong>ex04</strong> <br>
-<strong>ex05</strong> <br>
-</details>
-
-# CPP 02
-<details>
-<summary>Exercises: </summary>
-<strong>ex00</strong> <br>	
-<strong>ex01</strong> <br>
-<strong>ex02</strong> <br>
-</details>
-
-# CPP 03
-<details>
-<summary>Exercises: </summary>
-<strong>ex00</strong> <br>	
-<strong>ex01</strong> <br>
-<strong>ex02</strong> <br>
-<strong>ex03</strong> <br>
-</details>
-
-# CPP 04
-<details>
-<summary>Exercises: </summary>
-<strong>ex00</strong> <br>
-	
-<strong>ex01</strong> <br>
-<strong>ex02</strong> <br>
-
-</details>
-
-# Cpp Class Elements
-## Class
+## Cpp Class Elements
+### Class
 ```cpp
 class Weapon <-- name
 {
